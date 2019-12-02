@@ -44,9 +44,8 @@ public class MainText {
 		Text text = new Text();
 		
 		text.setTitle("Люди");
-
-		text.getText().add(sentence1);
-		text.getText().add(sentence2);
+		text.getText().add(0, sentence1);
+		text.getText().add(1, sentence2);
 
 		ViewText view = new ViewText();
 		
